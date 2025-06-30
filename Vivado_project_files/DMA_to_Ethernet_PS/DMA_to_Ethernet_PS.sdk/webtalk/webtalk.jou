@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Fri Feb 10 09:52:31 2023
+# Process ID: 18016
+# Current directory: C:/Users/Administrator/Desktop/zynq_dev_fmcomms3/zynq_dev_fmcomms3.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Administrator/Desktop/zynq_dev_fmcomms3/zynq_dev_fmcomms3.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/zynq_dev_fmcomms3/zynq_dev_fmcomms3.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

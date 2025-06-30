@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="DMA_2_ethernet_test" location="C:/Users/a/Desktop/GPS_work/DMA_2_ethernet_test" platform="C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/Ethernet_test.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="DMA_2_ethernet_test_system" sysConfig="Ethernet_test" runtime="cpp" cpu="freertos10_xilinx_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="freertos10_xilinx" mssSignature="eb88b1297e0ba7d48665fd31311e9c6f">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.510221698">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.556795201" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="freertos_lwip_udp_perf_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

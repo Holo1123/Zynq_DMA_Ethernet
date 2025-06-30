@@ -1,0 +1,9 @@
+TRACE::2025-06-30.14:28:36::SCWBifWriter::Found the complete platform C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/Ethernet_test.xpfm
+TRACE::2025-06-30.14:28:37::SCWBifWriter::hardware databse : top_1
+TRACE::2025-06-30.14:28:37::SCWBifWriter::bitstream found in the design
+TRACE::2025-06-30.14:28:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2025-06-30.14:28:37::SCWBifWriter::proc type : 
+TRACE::2025-06-30.14:28:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2025-06-30.14:28:37::SCWBifWriter::Device type is : zynq
+TRACE::2025-06-30.14:28:37::SCWBifWriter::Writing BIF to file : C:/Users/a/Desktop/GPS_work/DMA_2_ethernet_test_system/Debug/system.bif
+TRACE::2025-06-30.14:28:37::SCWBifWriter::Writing the Zynq Baremetal bif 

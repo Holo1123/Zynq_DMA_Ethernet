@@ -1,0 +1,26 @@
+/*
+ * radio_set.h
+ *
+ *  Created on: 20200803
+ *  v3eduyky@126.com youkaiyuan wechat 15921999232
+ */
+
+#ifndef _RADIO_SET_H_
+#define _RADIO_SET_H_
+struct ad9361_rf_phy *ad9361_phy;
+struct ad9361_rf_phy *ad9361_phy_b;
+//int32_t val;
+//uint64_t rfout;
+//uint32_t val_out;
+//uint32_t idelay;
+//uint32_t qdelay;
+uint32_t sample_rate = 40e6;
+uint64_t tx_lo_freq = 1500e6;
+uint64_t rx_lo_freq = 1500e6;
+uint32_t bandwidth = 20e6;
+int32_t gain = 20;
+uint32_t txatt = 10000;
+uint32_t regr = REG_PRODUCT_ID;
+/************************ad9361 struct************************************/
+
+#endif /* _RADIO_SET_H_ */

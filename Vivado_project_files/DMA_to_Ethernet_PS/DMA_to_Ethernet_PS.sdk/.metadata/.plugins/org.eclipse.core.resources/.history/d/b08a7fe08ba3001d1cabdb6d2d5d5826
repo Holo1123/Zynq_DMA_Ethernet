@@ -1,0 +1,15 @@
+/*
+ * radio_set.h
+ *
+ *  Created on: 20200803
+ *  v3eduyky@126.com youkaiyuan wechat 15921999232
+ */
+
+#ifndef _RADIO_SET_H_
+#define _RADIO_SET_H_
+struct ad9361_rf_phy *ad9361_phy;
+struct ad9361_rf_phy *ad9361_phy_b;
+
+/************************ad9361 struct************************************/
+
+#endif /* _RADIO_SET_H_ */

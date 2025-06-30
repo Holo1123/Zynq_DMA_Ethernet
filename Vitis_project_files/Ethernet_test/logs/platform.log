@@ -1,0 +1,2364 @@
+TRACE::2025-06-30.14:16:01::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:01::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:01::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:01::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:01::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:01::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-06-30.14:16:02::SCWPlatform::Opened new HwDB with name top_0
+TRACE::2025-06-30.14:16:02::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-06-30.14:16:02::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test"
+		}]
+}
+TRACE::2025-06-30.14:16:02::SCWPlatform::Boot application domains not present, creating them
+TRACE::2025-06-30.14:16:02::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-30.14:16:02::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-06-30.14:16:02::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:02::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2025-06-30.14:16:02::SCWPlatform::Generating the sources  .
+TRACE::2025-06-30.14:16:02::SCWBDomain::Generating boot domain sources.
+TRACE::2025-06-30.14:16:02::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:02::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:02::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:02::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-30.14:16:02::SCWMssOS::No sw design opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:02::SCWMssOS::mss does not exists at C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:02::SCWMssOS::Creating sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:02::SCWMssOS::Adding the swdes entry, created swdb C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:02::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:02::SCWMssOS::Writing mss at C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:02::SCWMssOS::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2025-06-30.14:16:02::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-30.14:16:02::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-30.14:16:02::SCWBDomain::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2025-06-30.14:16:06::SCWPlatform::Generating sources Done.
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-30.14:16:06::SCWMssOS::No sw design opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::mss exists loading the mss file  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Opened the sw design from mss  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Adding the swdes entry C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2025-06-30.14:16:06::SCWMssOS::updating the scw layer about changes
+TRACE::2025-06-30.14:16:06::SCWMssOS::Opened the sw design.  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:06::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:06::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:06::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:06::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-30.14:16:06::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:06::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:06::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:06::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:06::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-30.14:16:06::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-06-30.14:16:06::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:06::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:06::SCWMssOS::No sw design opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::mss does not exists at C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Creating sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Adding the swdes entry, created swdb C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss with des name C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Writing mss at C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:06::SCWMssOS::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp
+TRACE::2025-06-30.14:16:06::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-30.14:16:06::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-30.14:16:06::SCWMssOS::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp
+TRACE::2025-06-30.14:16:06::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-06-30.14:16:08::SCWMssOS::Writing the mss file completed C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"sysDefaultDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDispName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.13",
+					"mssFile":	"",
+					"md5Digest":	"fa57dcd3f651e525839b52ef3ee5e03b",
+					"compatibleApp":	"freertos_lwip_udp_perf_server",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip213:1.0"],
+					"libOptions":	{
+						"freertos10_xilinx":	{
+							"total_heap_size":	"262140",
+							"libOptionNames":	["total_heap_size"]
+						},
+						"libsContainingOptions":	["freertos10_xilinx"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-06-30.14:16:08::SCWPlatform::Started generating the artifacts platform Ethernet_test
+TRACE::2025-06-30.14:16:08::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-06-30.14:16:08::SCWPlatform::Started generating the artifacts for system configuration Ethernet_test
+LOG::2025-06-30.14:16:08::SCWSystem::Checking the domain zynq_fsbl
+LOG::2025-06-30.14:16:08::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2025-06-30.14:16:08::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-06-30.14:16:08::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2025-06-30.14:16:08::SCWSystem::Checking the domain freertos10_xilinx_ps7_cortexa9_0
+LOG::2025-06-30.14:16:08::SCWSystem::Not a boot domain 
+LOG::2025-06-30.14:16:08::SCWSystem::Started Processing the domain freertos10_xilinx_ps7_cortexa9_0
+TRACE::2025-06-30.14:16:08::SCWDomain::Generating domain artifcats
+TRACE::2025-06-30.14:16:08::SCWMssOS::Generating standalone artifcats
+TRACE::2025-06-30.14:16:08::SCWMssOS::Copying the qemu file from  C:/Users/a/Desktop/GPS_work/Ethernet_test/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt To C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/qemu/
+TRACE::2025-06-30.14:16:08::SCWMssOS::Copying the qemu file from  C:/Users/a/Desktop/GPS_work/Ethernet_test/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt To C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu/
+TRACE::2025-06-30.14:16:08::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp
+TRACE::2025-06-30.14:16:08::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-30.14:16:08::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-06-30.14:16:08::SCWDomain::Skipping the build for domain :  freertos10_xilinx_ps7_cortexa9_0
+TRACE::2025-06-30.14:16:08::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-06-30.14:16:08::SCWMssOS::Copying to export directory.
+TRACE::2025-06-30.14:16:08::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-06-30.14:16:08::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-06-30.14:16:08::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-06-30.14:16:08::SCWSystem::Completed Processing the domain freertos10_xilinx_ps7_cortexa9_0
+LOG::2025-06-30.14:16:08::SCWSystem::Completed Processing the sysconfig Ethernet_test
+LOG::2025-06-30.14:16:08::SCWPlatform::Completed generating the artifacts for system configuration Ethernet_test
+TRACE::2025-06-30.14:16:08::SCWPlatform::Started preparing the platform 
+TRACE::2025-06-30.14:16:08::SCWSystem::Writing the bif file for system config Ethernet_test
+TRACE::2025-06-30.14:16:08::SCWSystem::dir created 
+TRACE::2025-06-30.14:16:08::SCWSystem::Writing the bif 
+TRACE::2025-06-30.14:16:08::SCWPlatform::Started writing the spfm file 
+TRACE::2025-06-30.14:16:08::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-06-30.14:16:08::SCWPlatform::Completed generating the platform
+TRACE::2025-06-30.14:16:08::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:08::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:08::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:08::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:08::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"sysDefaultDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDispName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.13",
+					"mssFile":	"",
+					"md5Digest":	"fa57dcd3f651e525839b52ef3ee5e03b",
+					"compatibleApp":	"freertos_lwip_udp_perf_server",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip213:1.0"],
+					"libOptions":	{
+						"freertos10_xilinx":	{
+							"total_heap_size":	"262140",
+							"libOptionNames":	["total_heap_size"]
+						},
+						"libsContainingOptions":	["freertos10_xilinx"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-06-30.14:16:08::SCWPlatform::updated the xpfm file.
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"sysDefaultDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDispName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.13",
+					"mssFile":	"",
+					"md5Digest":	"fa57dcd3f651e525839b52ef3ee5e03b",
+					"compatibleApp":	"freertos_lwip_udp_perf_server",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip213:1.0"],
+					"libOptions":	{
+						"freertos10_xilinx":	{
+							"total_heap_size":	"262140",
+							"libOptionNames":	["total_heap_size"]
+						},
+						"libsContainingOptions":	["freertos10_xilinx"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"sysDefaultDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDispName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.13",
+					"mssFile":	"",
+					"md5Digest":	"fa57dcd3f651e525839b52ef3ee5e03b",
+					"compatibleApp":	"freertos_lwip_udp_perf_server",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip213:1.0"],
+					"libOptions":	{
+						"freertos10_xilinx":	{
+							"total_heap_size":	"262140",
+							"libOptionNames":	["total_heap_size"]
+						},
+						"libsContainingOptions":	["freertos10_xilinx"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-06-30.14:16:09::SCWPlatform::Started generating the artifacts platform Ethernet_test
+TRACE::2025-06-30.14:16:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-06-30.14:16:09::SCWPlatform::Started generating the artifacts for system configuration Ethernet_test
+LOG::2025-06-30.14:16:09::SCWSystem::Started Processing the domain freertos10_xilinx_ps7_cortexa9_0
+TRACE::2025-06-30.14:16:09::SCWDomain::Generating domain artifcats
+TRACE::2025-06-30.14:16:09::SCWMssOS::Generating standalone artifcats
+TRACE::2025-06-30.14:16:09::SCWMssOS::Copying the qemu file from  C:/Users/a/Desktop/GPS_work/Ethernet_test/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt To C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/qemu/
+TRACE::2025-06-30.14:16:09::SCWMssOS::Copying the qemu file from  C:/Users/a/Desktop/GPS_work/Ethernet_test/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt To C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu/
+TRACE::2025-06-30.14:16:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp
+TRACE::2025-06-30.14:16:09::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-30.14:16:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-06-30.14:16:09::SCWDomain::Building the domain as part of full build :  freertos10_xilinx_ps7_cortexa9_0
+TRACE::2025-06-30.14:16:09::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-06-30.14:16:09::SCWMssOS::Copying to export directory.
+TRACE::2025-06-30.14:16:09::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-06-30.14:16:09::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-06-30.14:16:09::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-06-30.14:16:09::SCWSystem::Completed Processing the domain freertos10_xilinx_ps7_cortexa9_0
+LOG::2025-06-30.14:16:09::SCWSystem::Completed Processing the sysconfig Ethernet_test
+LOG::2025-06-30.14:16:09::SCWPlatform::Completed generating the artifacts for system configuration Ethernet_test
+TRACE::2025-06-30.14:16:09::SCWPlatform::Started preparing the platform 
+TRACE::2025-06-30.14:16:09::SCWSystem::Writing the bif file for system config Ethernet_test
+TRACE::2025-06-30.14:16:09::SCWSystem::dir created 
+TRACE::2025-06-30.14:16:09::SCWSystem::Writing the bif 
+TRACE::2025-06-30.14:16:09::SCWPlatform::Started writing the spfm file 
+TRACE::2025-06-30.14:16:09::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-06-30.14:16:09::SCWPlatform::Completed generating the platform
+TRACE::2025-06-30.14:16:09::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:16:09::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:16:09::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:16:09::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:16:09::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:16:09::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"sysDefaultDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDispName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.13",
+					"mssFile":	"",
+					"md5Digest":	"fa57dcd3f651e525839b52ef3ee5e03b",
+					"compatibleApp":	"freertos_lwip_udp_perf_server",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip213:1.0"],
+					"libOptions":	{
+						"freertos10_xilinx":	{
+							"total_heap_size":	"262140",
+							"libOptionNames":	["total_heap_size"]
+						},
+						"libsContainingOptions":	["freertos10_xilinx"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-06-30.14:16:09::SCWPlatform::updated the xpfm file.
+LOG::2025-06-30.14:24:59::SCWPlatform::Started generating the artifacts platform Ethernet_test
+TRACE::2025-06-30.14:24:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-06-30.14:24:59::SCWPlatform::Started generating the artifacts for system configuration Ethernet_test
+LOG::2025-06-30.14:24:59::SCWSystem::Checking the domain zynq_fsbl
+LOG::2025-06-30.14:24:59::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2025-06-30.14:24:59::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-06-30.14:24:59::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2025-06-30.14:24:59::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:24:59::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:24:59::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:24:59::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:24:59::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:24:59::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:24:59::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:24:59::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:24:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:24:59::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:24:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:24:59::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:24:59::SCWBDomain::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2025-06-30.14:24:59::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-30.14:24:59::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-06-30.14:24:59::SCWBDomain::System Command Ran  C:&  cd  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl& make -C  zynq_fsbl_bsp & make 
+TRACE::2025-06-30.14:24:59::SCWBDomain::make: Entering directory 'C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2025-06-30.14:24:59::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2025-06-30.14:24:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_16/src"
+
+TRACE::2025-06-30.14:24:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axidma_v9_16/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:24:59::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:24:59::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-30.14:25:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-06-30.14:25:01::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-06-30.14:25:01::SCWBDomain::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-06-30.14:25:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-06-30.14:25:01::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-06-30.14:25:01::SCWBDomain::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-30.14:25:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:01::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:01::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-30.14:25:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:02::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:02::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-06-30.14:25:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:02::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:02::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2025-06-30.14:25:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:02::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:02::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:03::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-06-30.14:25:03::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:03::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:03::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:03::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-06-30.14:25:03::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-06-30.14:25:03::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-06-30.14:25:03::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:03::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-06-30.14:25:03::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:03::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:03::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:04::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-06-30.14:25:04::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-06-30.14:25:04::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-30.14:25:04::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:04::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2025-06-30.14:25:04::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:04::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:04::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:05::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-06-30.14:25:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:05::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:05::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:05::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_0/src"
+
+TRACE::2025-06-30.14:25:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:05::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:05::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:05::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2025-06-30.14:25:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:05::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:05::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:06::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:06::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::'Finished building libraries sequentially.'
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -j 18 --no-print-directory par_libs
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_16/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axidma_v9_16/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:06::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-06-30.14:25:06::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-06-30.14:25:06::SCWBDomain::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-06-30.14:25:06::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-06-30.14:25:06::SCWBDomain::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:06::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:06::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:06::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:06::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:06::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-06-30.14:25:06::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-06-30.14:25:06::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-06-30.14:25:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-30.14:25:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:06::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_0/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2025-06-30.14:25:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:07::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_16/src"
+
+TRACE::2025-06-30.14:25:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axidma_v9_16/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-30.14:25:07::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-30.14:25:07::SCWBDomain::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:07::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-30.14:25:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2025-06-30.14:25:07::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2025-06-30.14:25:07::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:07::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-06-30.14:25:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-06-30.14:25:07::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-30.14:25:07::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:07::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-06-30.14:25:08::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-06-30.14:25:08::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:08::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:08::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-06-30.14:25:08::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-06-30.14:25:08::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-30.14:25:08::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-30.14:25:08::SCWBDomain::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:08::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-06-30.14:25:09::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:09::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:09::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:09::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-06-30.14:25:09::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:09::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:09::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:09::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-06-30.14:25:09::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:09::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:09::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:09::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-06-30.14:25:10::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:10::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:10::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:10::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2025-06-30.14:25:10::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-30.14:25:10::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-30.14:25:10::SCWBDomain::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:10::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-06-30.14:25:10::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:10::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:10::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:10::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v5_0/src"
+
+TRACE::2025-06-30.14:25:10::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:10::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:10::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::'Finished building libraries parallelly.'
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::make --no-print-directory archive
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2025-06-30.14:25:12::SCWBDomain::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2025-06-30.14:25:12::SCWBDomain::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2025-06-30.14:25:12::SCWBDomain::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2025-06-30.14:25:12::SCWBDomain::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2025-06-30.14:25:12::SCWBDomain::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2025-06-30.14:25:12::SCWBDomain::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2025-06-30.14:25:12::SCWBDomain::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2025-06-30.14:25:12::SCWBDomain::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xaxidma.o ps7_cortexa9_0/lib/xaxidma_b
+TRACE::2025-06-30.14:25:12::SCWBDomain::d.o ps7_cortexa9_0/lib/xaxidma_bdring.o ps7_cortexa9_0/lib/xaxidma_g.o ps7_cortexa9_0/lib/xaxidma_selftest.o ps7_cortexa9_0/lib
+TRACE::2025-06-30.14:25:12::SCWBDomain::/xaxidma_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_
+TRACE::2025-06-30.14:25:12::SCWBDomain::0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o p
+TRACE::2025-06-30.14:25:12::SCWBDomain::s7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps
+TRACE::2025-06-30.14:25:12::SCWBDomain::7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_con
+TRACE::2025-06-30.14:25:12::SCWBDomain::trol.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xema
+TRACE::2025-06-30.14:25:12::SCWBDomain::cps_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil
+TRACE::2025-06-30.14:25:12::SCWBDomain::_clocking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_corte
+TRACE::2025-06-30.14:25:12::SCWBDomain::xa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps
+TRACE::2025-06-30.14:25:12::SCWBDomain::7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testm
+TRACE::2025-06-30.14:25:12::SCWBDomain::em.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/x
+TRACE::2025-06-30.14:25:12::SCWBDomain::platform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib
+TRACE::2025-06-30.14:25:12::SCWBDomain::/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_co
+TRACE::2025-06-30.14:25:12::SCWBDomain::rtexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_
+TRACE::2025-06-30.14:25:12::SCWBDomain::sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xs
+TRACE::2025-06-30.14:25:12::SCWBDomain::cuwdt_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xuart
+TRACE::2025-06-30.14:25:12::SCWBDomain::ps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortex
+TRACE::2025-06-30.14:25:12::SCWBDomain::a9_0/lib/xuartps_sinit.o
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::'Finished building libraries'
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::make: Leaving directory 'C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2025-06-30.14:25:12::SCWBDomain::exa9_0/include -I.
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-06-30.14:25:12::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2025-06-30.14:25:12::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c image_mover.c -o image_mover.o -Izynq
+TRACE::2025-06-30.14:25:12::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2025-06-30.14:25:12::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2025-06-30.14:25:12::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:12::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-06-30.14:25:12::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:13::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2025-06-30.14:25:13::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:13::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-06-30.14:25:13::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:13::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2025-06-30.14:25:13::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:13::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-06-30.14:25:13::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:13::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2025-06-30.14:25:13::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-06-30.14:25:13::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf fsbl_handoff.o fsbl_hooks.o image_mover.o main.o md5.o nand.o nor.o pcap.o ps7_init.o qspi.o rsa.
+TRACE::2025-06-30.14:25:13::SCWBDomain::o sd.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id
+TRACE::2025-06-30.14:25:13::SCWBDomain::=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-
+TRACE::2025-06-30.14:25:13::SCWBDomain::group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                               -Wl,--gc-sections -Lzynq_fsbl_bsp/ps7_c
+TRACE::2025-06-30.14:25:13::SCWBDomain::ortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2025-06-30.14:25:14::SCWSystem::Checking the domain freertos10_xilinx_ps7_cortexa9_0
+LOG::2025-06-30.14:25:14::SCWSystem::Not a boot domain 
+LOG::2025-06-30.14:25:14::SCWSystem::Started Processing the domain freertos10_xilinx_ps7_cortexa9_0
+TRACE::2025-06-30.14:25:14::SCWDomain::Generating domain artifcats
+TRACE::2025-06-30.14:25:14::SCWMssOS::Generating standalone artifcats
+TRACE::2025-06-30.14:25:14::SCWMssOS::Copying the qemu file from  C:/Users/a/Desktop/GPS_work/Ethernet_test/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt To C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/qemu/
+TRACE::2025-06-30.14:25:14::SCWMssOS::Copying the qemu file from  C:/Users/a/Desktop/GPS_work/Ethernet_test/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt To C:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu/
+TRACE::2025-06-30.14:25:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-06-30.14:25:14::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:14::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:14::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:14::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:14::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:14::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:14::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:14::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:14::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:14::SCWMssOS::Completed writing the mss file at C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp
+TRACE::2025-06-30.14:25:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-30.14:25:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-06-30.14:25:14::SCWDomain::Building the domain as part of full build :  freertos10_xilinx_ps7_cortexa9_0
+TRACE::2025-06-30.14:25:14::SCWMssOS::doing bsp build ... 
+TRACE::2025-06-30.14:25:14::SCWMssOS::System Command Ran  C: & cd  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp & make 
+TRACE::2025-06-30.14:25:14::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_16/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axidma_v9_16/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:14::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:14::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-06-30.14:25:14::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-06-30.14:25:14::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-06-30.14:25:14::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-06-30.14:25:14::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:14::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:14::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:14::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:14::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:14::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:14::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:14::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:14::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_13/src"
+
+TRACE::2025-06-30.14:25:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_13/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-n
+TRACE::2025-06-30.14:25:14::SCWMssOS::one-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-ab
+TRACE::2025-06-30.14:25:14::SCWMssOS::i=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:15::SCWMssOS::"includes"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/lwip213_v1_0/src"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/lwip213_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:16::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:16::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:16::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:16::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-06-30.14:25:16::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-06-30.14:25:16::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:16::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:16::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2025-06-30.14:25:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:16::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:16::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:17::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-06-30.14:25:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:17::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:17::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:17::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/lwip213_v1_0/src"
+
+TRACE::2025-06-30.14:25:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/lwip213_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-30.14:25:17::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-30.14:25:17::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:17::SCWMssOS::"Compiling lwip src and adapter files"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -j 18 --no-print-directory par_libs
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_16/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axidma_v9_16/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:23::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:23::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-06-30.14:25:23::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-06-30.14:25:23::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-06-30.14:25:23::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-06-30.14:25:23::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:23::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:23::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:23::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:23::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:23::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:23::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:23::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:23::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_13/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_13/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-n
+TRACE::2025-06-30.14:25:23::SCWMssOS::one-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-ab
+TRACE::2025-06-30.14:25:23::SCWMssOS::i=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/lwip213_v1_0/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/lwip213_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:23::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:23::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:23::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:23::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"includes"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-06-30.14:25:23::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-06-30.14:25:23::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-06-30.14:25:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:23::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:23::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-30.14:25:24::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-30.14:25:24::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-30.14:25:24::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-30.14:25:24::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_16/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axidma_v9_16/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-30.14:25:24::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-30.14:25:24::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2025-06-30.14:25:24::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2025-06-30.14:25:24::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-06-30.14:25:24::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-30.14:25:24::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-06-30.14:25:24::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-06-30.14:25:24::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:24::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:24::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-06-30.14:25:24::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-06-30.14:25:24::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-30.14:25:24::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-30.14:25:24::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_13/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_13/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-06-30.14:25:24::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-06-30.14:25:24::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:24::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:24::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-30.14:25:24::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-30.14:25:24::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-06-30.14:25:25::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:25::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:25::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:25::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2025-06-30.14:25:25::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-30.14:25:25::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-30.14:25:25::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:25::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-06-30.14:25:25::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-30.14:25:25::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-30.14:25:25::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2025-06-30.14:25:27::SCWMssOS::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa9_0/lib/cpputest_time.o ps7_corte
+TRACE::2025-06-30.14:25:27::SCWMssOS::xa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/fstat.o ps7_cortexa9_0/lib/getent
+TRACE::2025-06-30.14:25:27::SCWMssOS::ropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0/lib/kill.o ps7_cortex
+TRACE::2025-06-30.14:25:27::SCWMssOS::a9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/putnum.o 
+TRACE::2025-06-30.14:25:27::SCWMssOS::ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/time.o ps7_cortexa9_0/lib/tra
+TRACE::2025-06-30.14:25:27::SCWMssOS::nslation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/write.
+TRACE::2025-06-30.14:25:27::SCWMssOS::o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xadcps_selftest
+TRACE::2025-06-30.14:25:27::SCWMssOS::.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xaxidma.o ps7_cortexa9_0/lib/xaxidma_bd.o ps7_cortexa9_0/lib/xaxidma_bd
+TRACE::2025-06-30.14:25:27::SCWMssOS::ring.o ps7_cortexa9_0/lib/xaxidma_g.o ps7_cortexa9_0/lib/xaxidma_selftest.o ps7_cortexa9_0/lib/xaxidma_sinit.o ps7_cortexa9_0/l
+TRACE::2025-06-30.14:25:27::SCWMssOS::ib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0
+TRACE::2025-06-30.14:25:27::SCWMssOS::/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_co
+TRACE::2025-06-30.14:25:27::SCWMssOS::rtexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o p
+TRACE::2025-06-30.14:25:27::SCWMssOS::s7_cortexa9_0/lib/xemacps.o ps7_cortexa9_0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps
+TRACE::2025-06-30.14:25:27::SCWMssOS::_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xi
+TRACE::2025-06-30.14:25:27::SCWMssOS::l-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/xi
+TRACE::2025-06-30.14:25:27::SCWMssOS::l_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_
+TRACE::2025-06-30.14:25:27::SCWMssOS::0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_cortexa9_0/lib/xil_spinlock.o p
+TRACE::2025-06-30.14:25:27::SCWMssOS::s7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xil_util.
+TRACE::2025-06-30.14:25:27::SCWMssOS::o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xplatform_info.o ps7_cortexa9_0/li
+TRACE::2025-06-30.14:25:27::SCWMssOS::b/xpm_counter.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/
+TRACE::2025-06-30.14:25:27::SCWMssOS::xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscutimer.o ps7_cort
+TRACE::2025-06-30.14:25:27::SCWMssOS::exa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xscuwd
+TRACE::2025-06-30.14:25:27::SCWMssOS::t.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/
+TRACE::2025-06-30.14:25:27::SCWMssOS::xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartp
+TRACE::2025-06-30.14:25:27::SCWMssOS::s_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::Copying to export directory.
+TRACE::2025-06-30.14:25:27::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-06-30.14:25:27::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-06-30.14:25:27::SCWSystem::Completed Processing the domain freertos10_xilinx_ps7_cortexa9_0
+LOG::2025-06-30.14:25:27::SCWSystem::Completed Processing the sysconfig Ethernet_test
+LOG::2025-06-30.14:25:27::SCWPlatform::Completed generating the artifacts for system configuration Ethernet_test
+TRACE::2025-06-30.14:25:27::SCWPlatform::Started preparing the platform 
+TRACE::2025-06-30.14:25:27::SCWSystem::Writing the bif file for system config Ethernet_test
+TRACE::2025-06-30.14:25:27::SCWSystem::dir created 
+TRACE::2025-06-30.14:25:27::SCWSystem::Writing the bif 
+TRACE::2025-06-30.14:25:27::SCWPlatform::Started writing the spfm file 
+TRACE::2025-06-30.14:25:27::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-06-30.14:25:27::SCWPlatform::Completed generating the platform
+TRACE::2025-06-30.14:25:27::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:25:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:25:27::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:25:27::SCWMssOS::Saving the mss changes C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-30.14:25:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-30.14:25:27::SCWMssOS::Commit changes completed.
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:27::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:27::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:27::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:27::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:27::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:27::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:27::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:27::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:27::SCWWriter::formatted JSON is {
+	"platformName":	"Ethernet_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Ethernet_test",
+	"platHandOff":	"D:/GPS/GPS_fmc/zynq_dev_fmcomms3/DMA_to_Ethernet_PS/Ethernet_test.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Ethernet_test.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Ethernet_test",
+	"systems":	[{
+			"systemName":	"Ethernet_test",
+			"systemDesc":	"Ethernet_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Ethernet_test",
+			"sysActiveDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"sysDefaultDom":	"freertos10_xilinx_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1a53ba6a208c5a079222e92a2a342da",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDispName":	"freertos10_xilinx_ps7_cortexa9_0",
+					"domainDesc":	"freertos10_xilinx_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"qemuArgs":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.13",
+					"mssFile":	"",
+					"md5Digest":	"fa57dcd3f651e525839b52ef3ee5e03b",
+					"compatibleApp":	"freertos_lwip_udp_perf_server",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip213:1.0"],
+					"libOptions":	{
+						"freertos10_xilinx":	{
+							"total_heap_size":	"262140",
+							"libOptionNames":	["total_heap_size"]
+						},
+						"libsContainingOptions":	["freertos10_xilinx"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-06-30.14:25:27::SCWPlatform::updated the xpfm file.
+TRACE::2025-06-30.14:25:28::SCWPlatform::Trying to open the hw design at C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:28::SCWPlatform::DSA given C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:28::SCWPlatform::DSA absoulate path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:28::SCWPlatform::DSA directory C:/Users/a/Desktop/GPS_work/Ethernet_test/hw
+TRACE::2025-06-30.14:25:28::SCWPlatform:: Platform Path C:/Users/a/Desktop/GPS_work/Ethernet_test/hw/Ethernet_test.xsa
+TRACE::2025-06-30.14:25:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-06-30.14:25:28::SCWPlatform::Trying to set the existing hwdb with name top_0
+TRACE::2025-06-30.14:25:28::SCWPlatform::Opened existing hwdb top_0
+TRACE::2025-06-30.14:25:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.14:25:28::SCWMssOS::Checking the sw design at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-06-30.14:25:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/a/Desktop/GPS_work/Ethernet_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-30.14:25:28::SCWMssOS::Sw design exists and opened at  C:/Users/a/Desktop/GPS_work/Ethernet_test/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/system.mss

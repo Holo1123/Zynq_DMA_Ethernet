@@ -1,0 +1,155 @@
+/***************************************************************************//**
+ *   @file   main.c
+ *   @brief  Implementation of Main Function.
+ *   @author DBogdan (dragos.bogdan@analog.com)
+********************************************************************************
+ * Copyright 2013(c) Analog Devices, Inc.
+ *
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *  - Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *  - Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the
+ *    distribution.
+ *  - Neither the name of Analog Devices, Inc. nor the names of its
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *  - The use of this software may or may not infringe the patent rights
+ *    of one or more patent holders.  This license does not release you
+ *    from the requirement that you obtain separate licenses from these
+ *    patent holders to use this software.
+ *  - Use of the software either in source or binary form, must be run
+ *    on or directly connected to an Analog Devices Inc. component.
+ *
+ * THIS SOFTWARE IS PROVIDED BY ANALOG DEVICES "AS IS" AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, NON-INFRINGEMENT,
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ * IN NO EVENT SHALL ANALOG DEVICES BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, INTELLECTUAL PROPERTY RIGHTS, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*******************************************************************************/
+
+/******************************************************************************/
+/***************************** Include Files **********************************/
+/******************************************************************************/
+#include "config.h"
+#include "ad9361_api.h"
+#include "parameters.h"
+#include "platform.h"
+#include "radio_set.h"
+#include <xil_cache.h>
+#include "xil_io.h"
+
+#define AXI_CTRL_BASE XPAR_AXI_CTRL_0_BASEADDR
+#define I_DELAY_EN		AXI_CTRL_BASE+0
+#define I_DELAY_TAP 	AXI_CTRL_BASE+4
+#define DDS_PHASE_INC	AXI_CTRL_BASE+8
+#define PHY_MODE    	AXI_CTRL_BASE+12
+
+void AXI_REG_WRITE(u32 RegOffset, u32 Data);
+
+void gpio_initial(){
+	gpio_direction(GPIO_TXNRX_PIN  ,1);
+	gpio_direction(GPIO_ENABLE_PIN ,1);
+	gpio_direction(GPIO_RESET_PIN  ,1);
+	gpio_direction(GPIO_SYNC_PIN   ,1);
+	gpio_direction(GPIO_EN_AGC     ,1);
+	gpio_direction(GPIO_CTL0_PIN   ,1);
+	gpio_direction(GPIO_CTL1_PIN   ,1);
+	gpio_direction(GPIO_CTL2_PIN   ,1);
+	gpio_direction(GPIO_CTL3_PIN   ,1);
+
+
+	gpio_set_value(GPIO_TXNRX_PIN  ,1);
+	gpio_set_value(GPIO_ENABLE_PIN ,0);
+	gpio_set_value(GPIO_RESET_PIN  ,1);
+	gpio_set_value(GPIO_SYNC_PIN   ,1);
+	gpio_set_value(GPIO_EN_AGC     ,1);
+	gpio_set_value(GPIO_CTL0_PIN   ,0);
+	gpio_set_value(GPIO_CTL1_PIN   ,0);
+	gpio_set_value(GPIO_CTL2_PIN   ,0);
+	gpio_set_value(GPIO_CTL3_PIN   ,0);
+}
+
+/***************************************************************************//**
+ * @brief main
+*******************************************************************************/
+int main(void)
+{
+	Xil_ICacheEnable();
+	Xil_DCacheEnable();
+	//ad936x resetpin
+	default_init_param.gpio_resetb = GPIO_RESET_PIN;
+	default_init_param.gpio_sync=-1;
+	default_init_param.gpio_cal_sw1=-1;
+	default_init_param.gpio_cal_sw2=-1;
+
+	gpio_init(GPIO_DEVICE_ID);
+	gpio_direction(default_init_param.gpio_resetb, 1);
+
+	//spi dev initial
+	spi_init(SPI_DEVICE_ID, 1, 0);
+
+	//initial ad936x
+	ad9361_init(&ad9361_phy, &default_init_param);
+	//set fir param
+	ad9361_set_tx_fir_config(ad9361_phy, tx_fir_config);
+	ad9361_set_rx_fir_config(ad9361_phy, rx_fir_config);
+	ad9361_set_tx_fir_en_dis(ad9361_phy, 1);
+	ad9361_set_rx_fir_en_dis(ad9361_phy, 1);
+	//set sample rate
+	ad9361_set_tx_sampling_freq(ad9361_phy, sample_rate);
+	ad9361_set_rx_sampling_freq(ad9361_phy, sample_rate);
+	//set lo
+	ad9361_set_tx_lo_freq(ad9361_phy, tx_lo_freq);
+	ad9361_set_rx_lo_freq(ad9361_phy, rx_lo_freq);
+	//set bandwidth
+	ad9361_set_tx_rf_bandwidth(ad9361_phy, bandwidth);
+	ad9361_set_rx_rf_bandwidth(ad9361_phy, bandwidth);
+	//set rx channel gain
+	ad9361_set_rx_rf_gain(ad9361_phy, 0, gain);
+	ad9361_set_rx_rf_gain(ad9361_phy, 1, gain);
+	//set tx att
+	ad9361_set_tx_attenuation(ad9361_phy, 0, txatt);
+	ad9361_set_tx_attenuation(ad9361_phy, 1, txatt);
+	//read 936x chip id
+	val = ad9361_spi_read(ad9361_phy->spi, regr);
+	printf("ad9361_phy,REG_PRODUCT_ID=%d\n\r",val);
+
+	//bist test mode
+	ad9361_spi_write(ad9361_phy->spi, 0x3f4, 0x03);//tx tone
+	ad9361_spi_write(ad9361_phy->spi, 0x3f5, 0x01);//no rf loop
+	ad9361_spi_write(ad9361_phy->spi, 0x3f6, 0x00);
+
+	//initial emio pin
+	gpio_initial();
+
+	//idly_en idly_d phase clock_ce dds_en
+	AXI_REG_WRITE(I_DELAY_EN, 0x7f);
+	AXI_REG_WRITE(I_DELAY_TAP, 8);
+	AXI_REG_WRITE(DDS_PHASE_INC, 128);
+	AXI_REG_WRITE(PHY_MODE, 0);
+
+	printf("initial done.\n\r");
+	while(1);
+
+	Xil_DCacheDisable();
+	Xil_ICacheDisable();
+
+
+	return 0;
+}
+
+void AXI_REG_WRITE(u32 REG_ADDR, u32 Data)
+{
+	Xil_Out32(REG_ADDR,Data);
+}
+

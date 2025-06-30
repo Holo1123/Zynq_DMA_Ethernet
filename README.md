@@ -1,10 +1,8 @@
-# Zynq_DMA_Ethernet
-
-**Zynq DMA to Ethernet TX Example**
+# Zynq DMA to UDP Ethernet Tx Example
 
 ## Overview
 
-This project demonstrates high-throughput data transmission on a Zynq SoC using AXI DMA and UDP sockets. Data is streamed from the Programmable Logic (PL) to the Processing System (PS) via AXI DMA, and then sent over Ethernet using a UDP socket implemented with FreeRTOS and lwIP.
+This project demonstrates high-throughput data transmission on a Zynq SoC PL to PS ethernet using AXI DMA and UDP sockets. Data is streamed from the Programmable Logic (PL) to the Processing System (PS) via AXI DMA, and then sent over Ethernet using a UDP socket implemented with FreeRTOS and lwIP.
 
 ---
 

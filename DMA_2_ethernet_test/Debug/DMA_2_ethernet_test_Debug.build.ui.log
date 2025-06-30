@@ -1,0 +1,31 @@
+2025-06-30T14:28:32.49087600255-14:28:32 **** Incremental Build of configuration Debug for project DMA_2_ethernet_test ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/udp_perf_server.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/udp_perf_server.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/udp_perf_server.d" -MT"src/udp_perf_server.o" -o "src/udp_perf_server.o" "../src/udp_perf_server.c"
+000/DMA_2_ethernet_test/src/udp_perf_server.c149-1-1'reset_stats' defined but not used [-Wunused-function]1reset_stats../src/udp_perf_server.c:149:13: warning: 'reset_stats' defined but not used [-Wunused-function]
+000-  149 | static void reset_stats(void)
+000-      |             ^~~~~~~~~~~
+000/DMA_2_ethernet_test/src/udp_perf_server.c96-1-1'udp_conn_report' defined but not used [-Wunused-function]1udp_conn_report../src/udp_perf_server.c:96:13: warning: 'udp_conn_report' defined but not used [-Wunused-function]
+000-   96 | static void udp_conn_report(u64_t diff,
+000-      |             ^~~~~~~~~~~~~~~
+000-'Finished building: ../src/udp_perf_server.c'
+000-' '
+000-'Building target: DMA_2_ethernet_test.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/a/Desktop/GPS_work/Ethernet_test/export/Ethernet_test/sw/Ethernet_test/freertos10_xilinx_ps7_cortexa9_0/bsplib/lib -o "DMA_2_ethernet_test.elf"  ./src/iic_phyreset.o ./src/main.o ./src/udp_perf_server.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+000-'Finished building target: DMA_2_ethernet_test.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size DMA_2_ethernet_test.elf  |tee "DMA_2_ethernet_test.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 193817	   3472	41023552	41220841	274fae9	DMA_2_ethernet_test.elf
+000-'Finished building: DMA_2_ethernet_test.elf.size'
+000-' '
+00255-
+14:28:35 Build Finished (took 2s.861ms)
+
